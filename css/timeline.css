@@ -1,5 +1,5 @@
 /**
- * =================================================================== 
+ * ===================================================================
  *
  *  ResumeTemplate v1.0 Main ClearCareer
  *  url: clearcareer.ca
@@ -7,12 +7,12 @@
  *  ------------------------------------------------------------------
  * 
  * Timeline Tempalte by Bruno Rodriguez
- * 
+ *
  * https://github.com/itbruno
  * http://itbruno.com.br
  * http://www.twitter.com/_brunoweb
- * 
- * =================================================================== 
+ *
+ * ===================================================================
  */
 
 header:after, #timeline .timeline-item:after, header:before, #timeline .timeline-item:before {
@@ -96,7 +96,7 @@ header .social .btn {
 
 
 .timelinedot {
-  margin: 13px;  
+  margin: 13px;
   color:white;
 }
 
@@ -228,5 +228,3 @@ header .social .btn {
     left: 0;
   }
 }
-
-

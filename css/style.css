@@ -1,5 +1,5 @@
 /**
- * =================================================================== 
+ * ===================================================================
  *
  *  ResumeTemplate v1.0 ClearCareer
  *  url: clearcareer.ca
@@ -19,7 +19,7 @@
  *  05. Footer
  EXTRAS
 
- * =================================================================== 
+ * ===================================================================
  */
 
 /* 01. Basic Styles
@@ -37,6 +37,7 @@
  }
 
  h2 {
+   margin: 0px;
  }
 
  h5 {
@@ -70,6 +71,14 @@
     color: #1abc9c;
     font-weight: bolder;
     opacity: 1;
+ }
+
+ b{
+   color: lightgreen;
+ }
+
+ .description{
+   margin: 0px;
  }
 
 
@@ -172,7 +181,7 @@
 }
 
 .social-footer {
-    position: block;
+    position: fixed;
     padding: 15px;
 }
 
@@ -342,7 +351,7 @@ footer p {
         /* /Mouse Icon
          * =================================================================== */
 
- 
+
 /* Media Queries
  * =================================================================== */
 
@@ -354,7 +363,7 @@ footer p {
 
     .social-footer {
         text-align: center;
-        position:block;
+        position: fixed;
         text-align: center;
     }
 
@@ -401,5 +410,3 @@ footer p {
     }
 
 }
-
-
