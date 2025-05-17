@@ -1,0 +1,67 @@
+/* Particle Animation Styles */
+.particle-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#particle-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+.particle-content {
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+  z-index: 10;
+}
+
+.particle-content p {
+  font-family: monospace;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.particle-content a {
+  color: #ddd;
+  transition: color 0.3s ease;
+}
+
+.particle-content a:hover {
+  color: #00DCFF;
+}
+
+/* Styling for social links section */
+#social-links .social a {
+  color: #333;
+  padding: 1em;
+}
+
+#social-links .social a:hover {
+  opacity: 0.8;
+}
+
+#social-links .intro-desc {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .particle-content p {
+    font-size: 12px;
+  }
+
+  #social-links .social a {
+    padding: 0.5em;
+  }
+}

@@ -23,62 +23,49 @@
   "stylesheet"><!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet"><!-- Timeline CSS -->
   <link href="css/timeline.css" rel="stylesheet">
+  <!-- Particle Animation CSS -->
+  <link href="css/particle-animation.css" rel="stylesheet">
 </head>
 
 <body>
-  <!-- INTRO SECTION -->
+  <!-- PARTICLE ANIMATION SECTION -->
+  <div class="particle-container">
+    <canvas id="particle-canvas" aria-label="Interactive particle effect with Joshua Lin's name"></canvas>
+    <div class="particle-content">
+      <p>
+        <a href="#about" class="scroll-down">Scroll down to learn more</a>
+      </p>
+    </div>
+  </div>
 
-
-  <section class="section-image">
-    <div class="img-overlay"></div>
-    <div class="intro">
+  <!-- SOCIAL LINKS SECTION -->
+  <section class="section-primary" id="social-links">
+    <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h5>Hi there</h5>
-
-
-          <h1>I'm Joshua Lin</h1>
-
-
-          <p class="intro-desc"><span>Hospitality</span>
+        <div class="col-md-12 text-center">
+          <h5>Connect with me</h5>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/joshuaslin/"
+            target="_blank"><i class=
+            "fa fa-linkedin fa-3x"></i></a>
+            <a href="https://www.facebook.com/joshua.lin.399/"
+            target="_blank"><i class=
+            "fa fa-facebook fa-3x"></i></a>
+            <a href="https://open.spotify.com/user/1268144173?si=4_1sKiHeSiGL_HJfYmBvrA"
+            target="_blank"><i class=
+            "fa fa-spotify fa-3x"></i></a>
+            <a href="https://soundcloud.com/joshua-lin-13"
+            target="_blank"><i class=
+            "fa fa-soundcloud fa-3x"></i></a>
+          </div>
+          <p class="intro-desc mt-3"><span>Hospitality</span>
             <span class="colour-splash">•</span>
             <span>Real Estate</span> <span class=
             "colour-splash">•</span> <span>Finance</span></p>
-          </div>
-          <!-- /col-md-12 -->
         </div>
-
-
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <div class="social">
-              <a href="https://www.linkedin.com/in/joshuaslin/"
-              target="_blank"><i class=
-              "fa fa-linkedin fa-3x"></i></a>
-              <a href="https://www.facebook.com/joshua.lin.399/"
-              target="_blank"><i class=
-              "fa fa-facebook fa-3x"></i></a>
-              <a href="https://open.spotify.com/user/1268144173?si=4_1sKiHeSiGL_HJfYmBvrA"
-              target="_blank"><i class=
-              "fa fa-spotify fa-3x"></i></a>
-              <a href="https://soundcloud.com/joshua-lin-13"
-              target="_blank"><i class=
-              "fa fa-soundcloud fa-3x"></i></a>
-            </div>
-          </div><!-- /col-md-8 -->
-        </div><!-- /row -->
-
-
-
-        <div class="bottom">
-          <a href="#about">
-            <div class="mouse-icon">
-              <div class="scroll">
-              </div>
-            </div></a>
-          </div>
-        </div><!-- /intro -->
-      </section>
+      </div>
+    </div>
+  </section>
 
 
       <!-- ABOUT SECTION -->
@@ -237,6 +224,9 @@
                         <script src="js/bootstrap.min.js">
                         </script>
                         <script src="js/scripts.js">
+                        </script>
+                        <!-- Particle Animation Script -->
+                        <script src="js/particle-animation.js">
                         </script>
                       </body>
                       </html>
